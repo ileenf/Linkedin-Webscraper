@@ -20,9 +20,9 @@ def main():
 
     login(driver)
 
-    # connect_on_linkedin(driver, students_dict)
-    # connect_on_linkedin(driver, speakers_list)
-    # connect_on_linkedin(driver, grad_students_list)
+    connect_on_linkedin(driver, students_dict)
+    connect_on_linkedin(driver, speakers_list)
+    connect_on_linkedin(driver, grad_students_list)
 
 
     print('Finished!')
